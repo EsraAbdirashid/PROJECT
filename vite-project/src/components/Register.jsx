@@ -3,20 +3,21 @@ import React from 'react'
 const Register = () => {
   return (
     <>
-  <div className='bg-orange-600 box-border w-[450px] h-[450px] rounded-lg m-auto p-3'>
-    <form action="">
-
-      <input type="text"placeholder='First Name' required className='mt-4 px-20 rounded-md'/><br /> <br />
-      <input type="text"placeholder='Middle Name' required className='mt-4 px-20 rounded-md  ' /> <br /> <br />
-      <input type="text" placeholder='Last Name' required className='mt-4 px-20 rounded-md' /> <br /> <br />
-      <input type="text"placeholder='Phone number or Email' required  className='mt-4 px-20 rounded-md'/> <br /> <br />
+  <div data-aos="zoom-in-left" className='bg-orange-600 m-auto text-center  h-screen items-center justify-center'>
+   
+    <form>
+            <h1 className='text-white font-bold text-2xl shadow-white shadow-lg'>REGISTRAITION FORM</h1>
+      <input type="text"placeholder='First Name' required className=' px-[120px] rounded-md outline-none p-2 shadow-white shadow-2xl hover:border-2 mt-14'/><br /> 
+      <input type="text"placeholder='Middle Name' required className='mt-4  px-[120px] rounded-md outline-none p-2 shadow-white shadow-2xl hover:border-2' /> <br /> 
+      <input type="text" placeholder='Last Name' required className='mt-4  px-[120px] rounded-md outline-none p-2 shadow-white shadow-2xl hover:border-2' /> <br /> 
+      <input type="text"placeholder='Phone number or Email' required  className='mt-4  px-[120px] rounded-md outline-none p-2 shadow-white shadow-2xl hover:border-2 '/> <br /> <br />
        
-       <select name="" id="">
+       <select name="" id="" className='px-[175px] rounded-md outline-none p-2 shadow-white shadow-2xl '>
         <option value="Female">Female</option>        
         <option value="Male">Male</option>        
         
-       </select> 
-       <select name="" id="" className='mx-[100px]'>
+       </select> <br /> <br />
+       <select name="" id="" className=' px-[135px] rounded-md outline-none p-2 shadow-white shadow-2xl '>
         <option value="Cctv camera"> Cctv camera</option>
         <option value="Networking">Networking</option>
         <option value="Database"> Database</option>
@@ -30,8 +31,10 @@ const Register = () => {
        </select> <br /> <br />
 
 
-      <input type="submit" placeholder='submit' className='bg-white text-orange-600 font-bold px-4 p-1 rounded-lg translate-x-32 mt-12' />
+      <input type="submit" placeholder='submit' className='bg-white
+       text-orange-600 font-bold px-7 p-1 rounded-full outline-none hover:bg-orange-600 hover:text-white hover:border-2' />
     </form>
+   
   </div>
     
     </>

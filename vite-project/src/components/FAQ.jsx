@@ -3,7 +3,7 @@ import React from 'react'
 const FAQ = () => {
   return (
     <>
-    <div className="F items-center bg-gray-100 h-screen">
+    <div className="F items-center bg-gray-100 h-screen" data-aos="zoom-in-up">
         <div className="text text-center">
                 <h1 className='text-orange-600 text-3xl font-bold'>Caring is the new marketing</h1>
                 <p className='mt-4'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus vero numquam delectus voluptas? <br /> Voluptatem fuga, asperiores, quo quam dolorum modi similique fugit cupiditate laboriosam eveniet unde, <br /> fugiat hic nostrum excepturi.

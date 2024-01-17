@@ -7,7 +7,11 @@ import Product from './components/Product'
 import FAQ from './components/FAQ'
 import Register from './components/Register'
 import Logo from './components/Logo'
-import './index.js'
+import Singup from './components/Singup'
+import Login from './components/Login'
+import For from './components/For'
+
+
 
 
 
@@ -26,7 +30,7 @@ const App = () => {
 
         <nav id='drop' className=' -top-full max-md:flex max-md:flex-col max-md:gap-6 items-center flex gap-8'>
 
-          <ul className='flex gap-6 -translate-x-[60px] items-center  font-bold font-serif max-md:flex-col'>
+          <ul className='flex gap-6 translate-x-[70px] items-center  font-bold font-serif max-md:flex-col'>
 
             <li className='hover:text-orange-700 transition duration-500 hover:bg-white bg-orange-600 rounded-lg text-white px-4'>
               <Link to= '/Home'>Home</Link>
@@ -51,13 +55,13 @@ const App = () => {
           </ul>
         </nav>
         <div className="buttons space-x-4 flex items-center max-md:flex-col max-md:gap-6 -translate-x-11">
-        <button className='bg-white hover:font-bold  transition duration-500 text-orange-600 border-2 hover:bg-orange-500 hover:border-white hover:text-white hover:border-2 border-orange-600 font-bold px-7 rounded-full'>Login</button> 
-       <button className='text-orange-600 h-7 transition duration-500 border-2 border-orange-600 px-6 font-bold hover:bg-orange-500 hover:border-white hover:text-white hover:border-2 rounded-full '>signUp</button>
+       <Link to='/Login' className='bg-white hover:font-bold  transition duration-500 text-orange-600 border-2 hover:bg-orange-500 hover:border-white hover:text-white hover:border-2 border-orange-600 font-bold px-7 rounded-full'>Lgin</Link>
+       <Link to='/Singup' className='bg-white hover:font-bold  transition duration-500 text-orange-600 border-2 hover:bg-orange-500 hover:border-white hover:text-white hover:border-2 border-orange-600 font-bold px-7 rounded-full'>signUp</Link>
         </div>
 
       
-<div className="toggle">
-<i class='bx bx-menu'></i>
+<div className="toggle lg:hidden">
+<i class='bx bx-menu' ></i>
 
 </div>
         
@@ -75,6 +79,10 @@ const App = () => {
       <Route path='/FAQ' element={<FAQ/>}/>
       <Route path='/Register' element={<Register/>}/>
       <Route path='/Logo' element={<Logo/>}/>
+     <Route path='/Singup' element={<Singup />}/>
+     <Route path='/Login' element={<Login/>}/>
+     <Route path='/For' element={<For/>}/>
+     
     </Routes>
     
     </>

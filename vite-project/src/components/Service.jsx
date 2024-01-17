@@ -3,7 +3,7 @@ import React from 'react'
 const Service = () => {
   return (
     <>
-    <div className='mt-11 max-md:flex-col'>
+    <div className='mt-11 max-md:flex-col' data-aos="zoom-in-up">
     <div className="S">
         <div className="text">
                 <h1 className='text-3xl font-bold text-center text-orange-600'>Our Clients</h1>
@@ -37,7 +37,7 @@ const Service = () => {
 </button>
 
         </div>;
-        <div className="section bg-gray-100">
+        <div className="section bg-gray-100" >
 
         
        <div className="text2 text-center mt-11">

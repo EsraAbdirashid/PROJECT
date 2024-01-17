@@ -4,8 +4,8 @@ import Register from '../components/Register'
 
 const Home = () => {
   return (
-    <>
-    <div className="Home flex max-md:flex-col-reverse max-md:mt-9  opacity-100 translate-y-30 justify-between bg-pink-100 h-screen items-center p-4 ">
+    < >
+    <div className="Home flex max-md:flex-col-reverse max-md:mt-9  opacity-100 translate-y-30 justify-between bg-pink-100 h-screen items-center p-4 " data-aos="zoom-in-up" >
     <div className="">
       <h1 className='text-4xl  font-bold'>Lessons and insights</h1>
       <h2 className='text-orange-600  mt-3 font-bold text-6xl'>from recent years</h2>

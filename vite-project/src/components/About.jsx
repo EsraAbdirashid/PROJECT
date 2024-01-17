@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <div className="A flex  max-md:flex-col items-center p-4 gap-32 max-md:gap-10 bg-pink-200 h-screen max-md:h-full">
+    <div data-aos="zoom-in-up" className="A flex  max-md:flex-col items-center p-4 gap-32 max-md:gap-10 bg-pink-200 h-screen max-md:h-full">
     <div className="imgg">
         <img src="./public/picnow.avif" className='w-[450px] rounded-md' alt="" />
     </div>
