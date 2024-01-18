@@ -10,6 +10,7 @@ import Logo from './components/Logo'
 import Singup from './components/Singup'
 import Login from './components/Login'
 import For from './components/For'
+import Regester from './components/Regester'
 
 
 
@@ -82,6 +83,7 @@ const App = () => {
      <Route path='/Singup' element={<Singup />}/>
      <Route path='/Login' element={<Login/>}/>
      <Route path='/For' element={<For/>}/>
+     <Route path='/Regester' element={<Regester/>}/>
      
     </Routes>
     
