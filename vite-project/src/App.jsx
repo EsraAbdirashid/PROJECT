@@ -54,6 +54,7 @@ const App = () => {
             </li>
 
           </ul>
+          <hr />
         </nav>
         <div className="buttons space-x-4 flex items-center max-md:flex-col max-md:gap-6 -translate-x-11">
        <Link to='/Login' className='bg-white hover:font-bold  transition duration-500 text-orange-600 border-2 hover:bg-orange-500 hover:border-white hover:text-white hover:border-2 border-orange-600 font-bold px-7 rounded-full'>Lgin</Link>

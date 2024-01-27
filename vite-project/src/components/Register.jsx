@@ -32,7 +32,7 @@ const Register = () => {
 
 
       <input type="submit" placeholder='submit' className='bg-white
-       text-orange-600 font-bold px-7 p-1 rounded-full outline-none hover:bg-orange-600 hover:text-white hover:border-2' />
+       text-orange-600 font-bold px-[100px] p-1 rounded-full outline-none hover:bg-orange-600 hover:text-white hover:border-2' />
     </form>
    
   </div>

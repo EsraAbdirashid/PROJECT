@@ -32,7 +32,7 @@ const Regester = () => {
 
 
      <input type="submit" placeholder='submit' className=' border-2
-      text-white font-bold px-[30px] p-1 rounded-full outline-none hover:bg-orange-600 hover:text-white hover:border-2' />
+      text-white font-bold px-[150px] p-1 rounded-full outline-none hover:bg-orange-600 hover:text-white hover:border-2' />
    </form>
   
  </div>
