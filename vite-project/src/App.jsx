@@ -61,17 +61,13 @@ const App = () => {
        <Link to='/Singup' className='bg-white hover:font-bold  transition duration-500 text-orange-600 border-2 hover:bg-orange-500 hover:border-white hover:text-white hover:border-2 border-orange-600 font-bold px-7 rounded-full'>signUp</Link>
         </div>
 
-      
 <div className="toggle lg:hidden">
 <i class='bx bx-menu' ></i>
-
 </div>
         
-
       </div>
       
     </div>
-
     
     <Routes>
       <Route path='/Home' element={<Home/>}/>
